@@ -9,7 +9,7 @@ class Square extends React.Component {
         )
     }
 }
-
+/*commit test */
 class Board extends React.Component {
     renderSquare(i){
         return <Square/>;
