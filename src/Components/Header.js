@@ -1,10 +1,14 @@
 import React from 'react';
 
-function Header() {
+function Header(props) {
 
-    return {
+    return (
+        <div className='header'>
+            <div className='menus'>
 
-    }
+            </div>
+        </div>
+    )
 }
 
 export default Header;
