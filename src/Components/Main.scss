@@ -1,0 +1,29 @@
+.chaild-main .main-content {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  height: 60%;
+  border: solid 0.1rem linear-gradient(135deg, #fafcdf 0%, #fee0ac 100%);
+  border-radius: 25px;
+  background: linear-gradient(135deg, #87fcc4 0%, #ebe7b3 100%);
+}
+.chaild-main .main-content .main-items {
+  display: flex;
+  gap: 100px;
+  justify-items: center;
+  align-self: center;
+}
+
+.main-project {
+  cursor: pointer;
+}
+.main-user {
+  cursor: pointer;
+}
+.main-project:hover {
+  transform: scale(1.2);
+}
+
+.main-user:hover {
+  transform: scale(1.2);
+}
