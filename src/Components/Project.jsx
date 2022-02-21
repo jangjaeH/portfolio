@@ -8,6 +8,7 @@ import {
   ModalBody,
   ModalCloseButton,
 } from "@chakra-ui/react";
+import "./Project.scss";
 function Project() {}
 
 export default Project;
