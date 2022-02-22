@@ -18,16 +18,21 @@ function Profile({ isOpen, onClose }) {
       <Modal isOpen={isOpen} onClose={onClose}>
         <ModalOverlay />
         <ModalContent display="flex" alignItems="center" justifyContent="center" >
-          <ModalHeader w="50%" h="2%">
-          <ModalCloseButton w="3%" h="3%" />
+          <ModalHeader w="55%" h="2%">
           </ModalHeader>
-          <ModalBody w="50%" h="70%" bg="#FFFFFF">
+          <ModalCloseButton />
+          <ModalBody className="modal-body" mb="3%" w="50%" h="60%" bg="#FFFFFF">
             <Box align="center">
               <Image className="profile-image" mt="10px" boxSize="200px" src="./image/image.jpg" alt="my Image"></Image>
               <Text fontSize="15pt">JaeHyeok Jang</Text>
             </Box>
-            <Box mt="10px" className="profile-skils" align="center">
-                <Heading size="lg">My Skil</Heading>
+            <Box align="center">
+              <Heading size="lg">My Skills</Heading>
+            </Box>
+            <Box display="flex" alignItems="center" justifyContent="center" mt="10px" className="profile-skils" align="center">
+                <Text mr="5px" color="yellow">●</Text><Text mr="10px">JavaScript</Text>
+                <Text mr="5px">●</Text><Text mr="10px">Vue.Js</Text>
+                <Text mr="5px">●</Text><Text mr="10px">Asp.net</Text>
             </Box>
           </ModalBody>
         </ModalContent>
